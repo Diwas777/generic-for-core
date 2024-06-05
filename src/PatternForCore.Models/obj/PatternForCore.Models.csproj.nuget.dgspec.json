@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Experimentals\\genericforcore\\src\\PatternForCore.Models\\PatternForCore.Models.csproj": {}
+    "D:\\Practice\\generic-for-core\\src\\PatternForCore.Models\\PatternForCore.Models.csproj": {}
   },
   "projects": {
-    "C:\\Experimentals\\genericforcore\\src\\PatternForCore.Models\\PatternForCore.Models.csproj": {
+    "D:\\Practice\\generic-for-core\\src\\PatternForCore.Models\\PatternForCore.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Experimentals\\genericforcore\\src\\PatternForCore.Models\\PatternForCore.Models.csproj",
+        "projectUniqueName": "D:\\Practice\\generic-for-core\\src\\PatternForCore.Models\\PatternForCore.Models.csproj",
         "projectName": "PatternForCore.Models",
-        "projectPath": "C:\\Experimentals\\genericforcore\\src\\PatternForCore.Models\\PatternForCore.Models.csproj",
-        "packagesPath": "C:\\Users\\Hesapkurdu\\.nuget\\packages\\",
-        "outputPath": "C:\\Experimentals\\genericforcore\\src\\PatternForCore.Models\\obj\\",
+        "projectPath": "D:\\Practice\\generic-for-core\\src\\PatternForCore.Models\\PatternForCore.Models.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Practice\\generic-for-core\\src\\PatternForCore.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hesapkurdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,11 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://repository.hesapkurdu.com:9191/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -37,10 +34,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -62,10 +65,17 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
